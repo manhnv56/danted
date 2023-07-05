@@ -98,8 +98,8 @@ curl https://ifconfig.co --socks5 127.0.0.1:2020 --proxy-user sockd:sockd
 ## Install by Script
 
 ```bash
-wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
-bash install.sh
+wget --no-check-certificate https://raw.githubusercontent.com/manhnv56/danted/master/install_debian.sh -O install_debian.sh
+bash install_debian.sh
 
 # run with options: bash install.sh option1 option2
 bash install.sh --ip="A.A.A.A:B.B.B.B" --port=2016 --user=sockd --passwd=sockd --whitelist="X.X.X.X/32"
